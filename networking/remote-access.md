@@ -1,0 +1,5 @@
+## Subnet Router and Container Isolation
+
+Normally, Tailscale only connects devices that have it installed directly, meaning each gets its own private Tailscale address, and only those devices can reach each other. A subnet router extends that: one Tailscale node advertises an entire IP range it can reach on its local network, so every other device on the tailnet can then reach anything in that range through it — even devices, like my Proxmox host, that will never run Tailscale themselves.
+
+I installed Tailscale inside an LXC container rather than directly on the Proxmox host for two reasons. First, isolation: a VPN tunnel is constantly talking to the outside internet, and I'd rather any bug or vulnerability in it be contained to a small, disposable container than have it running with full access on the same machine controlling every VM and all my storage. Second, practicality: if the container ever breaks or gets misconfigured, I can remove it and build a new one without touching Proxmox itself at all.
