@@ -1,8 +1,8 @@
 # Active Directory Homelab
 
-I'm turning an old desktop into a virtualized Active Directory and infrastructure lab. The goal: build real experience in help desk work, system administration, network administration, and infrastructure engineering — the skills that matter for a Network+ certification and a networking internship.
+I'm turning an old desktop into a virtualized Active Directory and infrastructure lab. The goal is tp build real experience in help desk work, system administration, network administration, and infrastructure engineering — the skills that I need for a Network+ certification and a networking internship.
 
-This isn't a weekend project. I'm documenting each phase — what I built, what broke, and how I fixed it — the way you'd document work in a real IT environment.
+I'm documenting each phase — what I built, what broke, and how I fixed it — the way you'd document work in a real IT environment.
 
 ## What's running right now
 
