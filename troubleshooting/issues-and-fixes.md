@@ -59,3 +59,20 @@
 **Fix:** Ran `tailscale up` again to generate a fresh link, and this time typed the address manually instead of copying and pasting it, which avoided whatever was corrupting the copy.
 
 **What I'd check first next time:** If a copied link produces an outright "domain doesn't exist" error rather than a normal failed connection, suspect the copy itself before assuming the service is down — regenerating and manually typing the link is a fast, harmless way to rule that out.
+
+
+### Disk not appearing during Windows Server 2025 installation
+
+**Symptom:** During the Windows Server 2025 install, the "Where do you want to install Windows?" screen showed no available disks, even though the VM had a 64GB virtual disk attached and a VirtIO SCSI controller configured.
+
+**Diagnostic steps:**
+1. Clicked "Load driver" and browsed to the `vioscsi` driver folder on the mounted VirtIO driver ISO (`D:\vioscsi\2k25\amd64`), assuming the disk needed the VirtIO SCSI driver since the VM's SCSI Controller was set to VirtIO SCSI single.
+2. With "Hide drivers that aren't compatible" checked, no drivers were found at all in that path.
+3. Unchecked that filter and found a "Red Hat VirtIO SCSI pass-through controller" driver listed, but flagged as not compatible with this hardware. Loaded it anyway to test — it accepted the driver, but the disk still didn't appear back on the installation screen.
+4. Went back into the Proxmox web UI, selected the VM, and checked its **Hardware** tab to see exactly how the disk was attached.
+
+**Root cause:** The hard disk was attached as `virtio0` — a plain VirtIO Block device — not `scsi0`. The VM's SCSI Controller setting only governs disks actually attached over the SCSI bus; this particular disk had been created on the separate VirtIO Block bus instead, so it needed the `viostor` driver, not `vioscsi`. The two drivers correspond to different emulated hardware, so `vioscsi` could never have matched regardless of folder or Windows version.
+
+**Fix:** Went back to the Load Driver screen in Windows Setup and browsed to the `viostor` folder instead (`D:\viostor\2k25\amd64`). This time the driver loaded cleanly with no incompatibility warning, and the disk appeared immediately on the installation screen.
+
+**What I'd check first next time:** Before touching drivers at all, check the VM's Hardware tab in Proxmox to see the actual disk label (`scsi0` vs. `virtio0`) — that tells you which driver folder you need up front, instead of guessing from the controller type and troubleshooting backward from a failed load.
