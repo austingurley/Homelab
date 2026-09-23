@@ -1,0 +1,347 @@
+# CCNA 200-301 (v1.1) — Progress Tracker
+
+> Jeremy's IT Lab course. Every box below is clickable in Obsidian (Reading or Live Preview mode) — click to check it off.
+> In VS Code or plain text, type an `x` between the brackets: `- [x]`.
+> Each day has 4 sub-tasks: **Video**, **Notes**, **Flashcards**, **Lab**. Finish all four before moving on — the course builds on itself.
+> Tip: in Obsidian you can click the little arrow next to a day to fold its sub-tasks and keep the list tidy.
+
+---
+
+## Course days
+
+- [x] **Day 1 — Network Devices**
+    - [x] Video
+    - [x] Notes
+    - [x] Flashcards
+    - [x] Lab
+- [ ] **Day 2 — Interfaces and Cables**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 3 — The TCP/IP Model**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 4 — Intro to the CLI**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 5 — Ethernet LAN Switching (Part 1)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 6 — Ethernet LAN Switching (Part 2)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 7 — IPv4 Addressing (Part 1)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 8 — IPv4 Addressing (Part 2)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 9 — Switch Interfaces**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 10 — The IPv4 Header**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 11 — Routing Fundamentals & Static Routing**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 12 — Life of a Packet**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 13 — Subnetting (Part 1)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 14 — Subnetting (Part 2)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 15 — Subnetting (Part 3)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 16 — VLANs (Part 1)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 17 — VLANs (Part 2)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 18 — VLANs (Part 3)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 19 — DTP & VTP**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 20 — Spanning Tree Protocol (Part 1)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 21 — Spanning Tree Protocol (Part 2)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 22 — Rapid STP**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 23 — EtherChannel**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 24 — Dynamic Routing**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 25 — RIP & EIGRP**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 26 — OSPF (Part 1)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 27 — OSPF (Part 2)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 28 — OSPF (Part 3)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 29 — First Hop Redundancy Protocols**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 30 — TCP & UDP**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 31 — IPv6 (Part 1)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 32 — IPv6 (Part 2)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 33 — IPv6 (Part 3)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 34 — Standard ACLs**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 35 — Extended ACLs**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 36 — CDP & LLDP**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 37 — NTP**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 38 — DNS**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 39 — DHCP**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 40 — SNMP**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 41 — Syslog**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 42 — SSH**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 43 — FTP & TFTP**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 44 — NAT (Part 1)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 45 — NAT (Part 2)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 46 — QoS (Part 1)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 47 — QoS (Part 2)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 48 — Security Fundamentals**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 49 — Port Security**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 50 — DHCP Snooping**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 51 — Dynamic ARP Inspection**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 52 — LAN Architectures**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 53 — WAN Architectures**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 54 — Virtualization & Cloud**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 55 — Wireless Fundamentals**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 56 — Wireless Architectures**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 57 — Wireless Security**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 58 — Wireless Configuration**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 59 — Intro to Network Automation**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 60 — JSON, XML, & YAML**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 61 — REST APIs**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 62 — Software-Defined Networking**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **Day 63 — Ansible, Puppet, Chef (+ Terraform)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Flashcards
+    - [ ] Lab
+- [ ] **★ CCNA Mega Lab (full config)**
+    - [ ] Video
+    - [ ] Notes
+    - [ ] Lab
+
+---
+
+## Milestones
+
+- [ ] Subnetting fast & automatic on paper (Days 13–15) — the make-or-break skill
+- [ ] Can configure + troubleshoot OSPF from memory (Days 26–28)
+- [ ] Rebuilt routing/switching + services labs on the homelab (real gear/VMs)
+- [ ] Completed the Mega Lab clean, no notes
+- [ ] Boson practice exams scoring 85%+ consistently
+- [ ] Exam scheduled 🎯
+
+## Weak-spot list
+
+<!-- Anything you keep missing. This is your final-week review list. -->
+
+-
